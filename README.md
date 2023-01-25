@@ -42,3 +42,9 @@ we need to return more fields.
 ![CodeMaintain](https://user-images.githubusercontent.com/116249623/214514810-dd1cc9a7-b5b6-4c5d-b6a8-620ef3b69ec1.JPG)
 
 
+Another real use case can be found here in this repo- https://github.com/tarunprof4/Bookmyslot-Api/tree/CleanArchitectureWithDDD
+
+DistributedInMemoryCacheBusiness.cs GetFromCacheAsync method
+This is used to check if the data is in cache. If not trigger the request processing again and save it back to cache. Next time the freshly saved data will be available from cache.
+
+
